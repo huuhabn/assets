@@ -2,10 +2,26 @@ Git Public Assets
 ======
 
 ## Use
-To see the content of `raw.githubusercontent.com/${user}/${repo}/${branch}/${path}` in the usual github interface:
+You can create a `assets/images` directory in your repo and add all your assets there. Assets added here will be available on
+```
+https://raw.githubusercontent.com/huuhabn/assets/main/images/{asset_name}.{asset_extension}
+```
 
-`https://github.com/huuhabn/assets/blob/main/images/links.jpeg`
+Add to README
+```
+![Alt text](https://user-images.githubusercontent.com/1479100/29113581-fe48fd86-7d23-11e7-9ee7-9680957171ee.png)
+```
+With this, images can be previewed without actually pushing to remote.
 
-Becomes
+Hosting on user-images.githubusercontent.com subdomain
 
-`https://raw.githubusercontent.com/huuhabn/assets/main/images/links.jpeg`
+If you do not intend to store any images in your repository, you can always use this https://user-images.githubusercontent.com/
+
+To host your images in user-images subdomain you can do the following
+
+1. Click New Issue this will open up the issue creator.
+2. Drag and Drop or Upload your image in the body content
+3. Wait for upload completion and copy the URL for the image.
+4. Cancel the issue creation and continue.
+
+But you will not have access to these images once uploaded, you cannot delete them. You can always contact GitHub Support if required to delete.
