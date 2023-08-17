@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/huuhabn/assets/main/images/{asset_name}.{asset
 
 Add to README
 ```
-![Alt text](https://user-images.githubusercontent.com/1479100/29113581-fe48fd86-7d23-11e7-9ee7-9680957171ee.png)
+![Alt text](https://raw.githubusercontent.com/huuhabn/assets/main/images/{asset_name}.{asset_extension})
 ```
 With this, images can be previewed without actually pushing to remote.
 
